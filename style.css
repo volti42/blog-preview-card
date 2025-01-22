@@ -19,8 +19,9 @@ body{
     height: 522px;
     border-radius: 20px;
     box-shadow: 10px 10px;
+    border: 1px solid black;
 }
-h1,h4{
+h1,h6{
     font-weight: 800;
 }
 .base-img{
@@ -40,7 +41,7 @@ border-radius: 15px;
     height: 29px;
     background-color: hsl(47, 88%, 63%);
     display: flex;
-    justify-content: center; /* Yatayda ortalama */
+    justify-content: center;
     align-items: center;
     border-radius: 4px;
 }
@@ -67,7 +68,7 @@ h1{
     display: flex;
     align-items: center;
 }
-.avatar h4{
+.avatar h6{
     padding-left: 12px;
 }
 a{
@@ -93,6 +94,4 @@ a:hover{
         width: 85%;
         overflow-wrap: break-word;
     }
-
-
 }
