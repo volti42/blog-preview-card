@@ -68,9 +68,6 @@ h1{
     display: flex;
     align-items: center;
 }
-.avatar h6{
-    padding-left: 12px;
-}
 a{
     color: black;
     text-decoration: none;
@@ -78,6 +75,16 @@ a{
 a:hover{
     color:  hsl(47, 88%, 63%);;
 }
+#author-name{
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+
+
+
+
+
 @media screen and (max-width:500px) {
 .container{
     width: 327px;
